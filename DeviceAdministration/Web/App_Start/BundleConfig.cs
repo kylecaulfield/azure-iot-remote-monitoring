@@ -30,10 +30,8 @@ namespace Microsoft.Azure.Devices.Applications.RemoteMonitoring.DeviceAdmin.Web
 
             bundles.Add(new StyleBundle("~/content/css/vendor")
                 .Include(
-                "~/content/styles/datatables.css",
-                "~/content/themes/base/core.css",
-                "~/content/themes/base/dialog.css",
-                "~/content/styles/visuals.min.css"));
+                "~/content/styles/jqueryui/core.css",
+                "~/content/styles/jqueryui/dialog.css"));
 
             var lessBundle = new Bundle("~/content/css")
                 .Include("~/Content/styles/main.less");
