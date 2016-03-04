@@ -241,11 +241,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_GlobalResources\Strings.tt.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Strings.tt.resx</DependentUpon>
-    </Compile>
     <Compile Include="App_GlobalResources\Strings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -565,11 +560,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="App_GlobalResources\Strings.tt.resx">
-      <Generator>GlobalResourceProxyGenerator</Generator>
-      <LastGenOutput>Strings.tt.designer.cs</LastGenOutput>
-      <CustomToolNamespace>PublicResXFileCodeGenerator</CustomToolNamespace>
-    </EmbeddedResource>
     <EmbeddedResource Include="App_GlobalResources\Strings.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.designer.cs</LastGenOutput>
