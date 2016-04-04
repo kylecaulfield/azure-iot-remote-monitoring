@@ -560,12 +560,80 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_GlobalResources\Strings.cs.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.cs.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.de.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.de.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.es.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.es.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.fr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.hu.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.hu.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.it.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.it.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.ja.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.ja.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.ko.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.ko.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.nl.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.nl.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.pl.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.pl.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.pt-BR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.pt-BR.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.pt-PT.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.pt-PT.designer.cs</LastGenOutput>
+    </Content>
     <EmbeddedResource Include="App_GlobalResources\Strings.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
       <CustomToolNamespace>GlobalResources</CustomToolNamespace>
     </EmbeddedResource>
+    <Content Include="App_GlobalResources\Strings.ru.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.ru.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.sv.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.sv.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.tr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.tr.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.zh-HANS.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.zh-HANS.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.zh-HANT.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.zh-HANT.designer.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="$(SolutionDir)\Common\Common.csproj">
